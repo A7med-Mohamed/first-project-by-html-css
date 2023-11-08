@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../images/background/background5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.main {
+    width: 100%;
+}
+
+nav {
+    font-size: 17px;
+    width: 100%;
+    background-color: #000000;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    margin-right: 70px;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+  
+}
+
+.logo a {
+    padding-left: 40px;
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+    font-style:italic;
+}
+
+ul {
+    margin: 0;
+}
+
+ul li {
+    font-size: 25PX;
+    float: left;
+    padding: 0 10px;
+    list-style: none;
+    margin-right: 80PX;
+}
+
+ul li a:hover {
+    color: red;
+}
+
+h1 {
+    color: bisque;
+    font-style: italic;
+    text-align: center;
+    font-family: var(--font-kaushan);
+    text-decoration: underline;
+}
+h1:hover{
+    color:red;
+}
+
+p {
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+    padding-left: 40px;
+}
